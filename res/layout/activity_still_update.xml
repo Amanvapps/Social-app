@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/header"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StillUpdate">
+
+    <include
+        android:id="@+id/still_update_bar"
+        layout="@layout/app_bar_layout"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Sign up method is not currently available , you can choose other sign up options....."
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        />
+
+</RelativeLayout>
